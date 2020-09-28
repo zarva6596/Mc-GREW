@@ -1,0 +1,59 @@
+.team {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+
+  &__info-block {
+    color: #fff;
+    background-color: #367ab7;
+    padding: 40px 100px 50px 30px;
+  }
+
+  &__top-text {
+    font-size: 18px;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.6;
+  }
+
+  &__heading {
+    margin: 40px 0;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+
+    &--team {
+      @include after-line;
+    }
+  }
+
+  &__text {
+    margin: 40px 0;
+    font-size: 18px;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+  }
+
+  &__button {
+    background-color: #00b5d2;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    &::after {
+
+      background-color: #008ea5;
+    }
+
+    &:hover {
+      background-color: #03b89f;
+
+      &::after {
+        background-color: #00a573;
+      }
+    }
+  }
+}

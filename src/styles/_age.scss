@@ -1,0 +1,28 @@
+.age {
+  padding: 100px 155px 0;
+  background-color: #00b5d2;
+
+  &__heading {
+    font-family: inherit;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 48px;
+  }
+
+  &__text {
+    color: #fff;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 18px;
+    margin: 50px 0;
+  }
+
+  &__image {
+    position: relative;
+    display: block;
+    width: 90%;
+    top: 12px;
+    margin: 0 auto;
+  }
+}

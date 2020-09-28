@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="12" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>Lager_15</title>
+ <metadata>Victor Erixon</metadata>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g fill="none" fill-rule="evenodd" id="Page-1">
+   <g fill="#000100" fill-rule="nonzero" id="Asset-1" transform="translate(-13.000000, -7.000000)">
+    <g id="Lager_15" transform="translate(13.000000, 7.000000)">
+     <path d="m6.091,10.681c0.14,-0.223 0.235,-0.472 0.278,-0.732a1.003,1.003 0 0 0 -0.278,-0.679l-5.517,-5.732a2.116,2.116 0 0 1 -0.01,-2.887l0.028,-0.031a1.959,1.959 0 0 1 2.854,-0.007l8.267,8.613c0.182,0.197 0.285,0.455 0.287,0.723a2.124,2.124 0 0 1 -0.287,0.775l-8.267,8.665a1.959,1.959 0 0 1 -2.854,-0.012l-0.028,-0.036a2.133,2.133 0 0 1 0.01,-2.9l5.517,-5.76z" fill="#ffffff" id="Shape"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
