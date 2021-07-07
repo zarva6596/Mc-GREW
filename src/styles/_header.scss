@@ -1,0 +1,82 @@
+.header {
+  padding: 42px 30px 140px;
+  background-image: url(../images/header-bgi-big.png);
+  background-size: cover;
+  background-position: bottom center;
+  height: 100%;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__heading {
+    font-family: inherit;
+    font-weight: 900;
+    margin: 180px 0 50px;
+    font-size: 48px;
+    color: #fff;
+    line-height: 1.2;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  &__help {
+    @include after-line;
+  }
+
+  &__text {
+    font-family: inherit;
+    margin: 50px 0;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  &__button {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__item {
+    font-family: inherit;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 35px;
+    padding: 10px 5px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+  &__link {
+    color: #454546;
+    line-height: 1.2;
+
+    &--active {
+      color: #fff;
+      font-size: 16px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+
+      @include after-line;
+
+      &::after {
+        bottom: -40px;
+      }
+    }
+
+    &:hover {
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    }
+  }
+}

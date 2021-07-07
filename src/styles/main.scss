@@ -1,7 +1,16 @@
 @import "utils";
-@import "fonts";
+@import "mixins";
 @import "typography";
+@import "header";
+@import "reset";
+@import "partners";
+@import "age";
+@import "mbis";
+@import "button";
+@import "home-support";
+@import "team";
+@import "futer";
 
 body {
-  background: $c-gray;
+  font-family: "Lato", sans-serif;
 }
